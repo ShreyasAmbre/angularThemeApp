@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    // Default Styling
+    --surface-bg-color: #fff;
+    --surface-color: #121212;
+
+    // Label Styling
+    --label-color: #2b2d42;
+
+    /* Card Styling */
+    --card-bg-color: #f9f9f9;
+    --card-color: #282828;
+
+    /* Input Styling */
+    --input-text-bg-color: #fff;
+    --input-text-color: #282828;
+    --input-text-border-color: #ef233c;
+    --input-focus-border-focus-color: 0 0 0 .25rem rgb(253 13 13 / 25%);
+
+}
+
+html body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5px;
+    color: var(--surface-color) !important;
+    background-color: var(--surface-bg-color) !important;
+}
+
+label {
+    color: var(--label-color)
+}

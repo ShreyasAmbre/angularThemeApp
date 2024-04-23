@@ -30,9 +30,22 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              {
+                "input": "src/assets/themes/red.css",
+                "bundleName": "red",
+                "inject": false
+              },
+              {
+                "input": "src/assets/themes/dark.css",
+                "bundleName": "dark",
+                "inject": false
+              }
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
